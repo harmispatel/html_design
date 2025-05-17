@@ -123,13 +123,13 @@ html {
 /* Banner section */
 
 .banner {
-  background: url(assets/banner/Group\ 1.png), #f9eefb;
+  background: url("assets/banner/Group 1.png"), #f9eefb;
   position: relative;
-  padding: 100px 0;
+  padding: 135px 0;
   overflow: hidden;
-  background-position: right -30px;
+  background-position: right -10px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto 90%;
 }
 
 .banner .child-image {
@@ -246,7 +246,7 @@ html {
 
 @media (max-width: 1399px) {
   .banner {
-    background-position: 124% -23px;
+    background-position: 120% -23px;
   }
 }
 
