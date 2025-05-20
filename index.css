@@ -125,11 +125,13 @@ html {
 .banner {
   background: url("assets/banner/Group 1.png"), #f9eefb;
   position: relative;
-  padding: 135px 0;
   overflow: hidden;
   background-position: 110% -10px;
   background-repeat: no-repeat;
   background-size: auto 90%;
+  height: calc(100vh - 94px);
+  display: flex;
+  align-items: center;
 }
 
 .banner .child-image {
@@ -238,15 +240,27 @@ html {
   height: auto;
 }
 
-/* @media (max-width: 1399px) {
+@media (min-width: 1920px) {
   .banner {
-    background-position: right -30px center;
+    background-position: 100% -20px;
   }
-} */
+}
 
-@media (max-width: 1399px) {
+@media (min-width: 1440px) and (max-width: 1919px) {
   .banner {
-    background-position: 120% -23px;
+    background-position: 110% -23px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .banner {
+    background-position: 130% -20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner {
+    background-position: 150% -30px;
   }
 }
 
@@ -1517,8 +1531,7 @@ html {
   width: 15%;
 }
 
-
-.quick-links ul li a{
+.quick-links ul li a {
   text-decoration: none;
   color: #ffffff99;
 }
@@ -1691,7 +1704,6 @@ html {
   margin-left: 20px;
   padding-left: 20px;
 } */
-
 
 .whatsapp-btn-footer a {
   align-items: center;
