@@ -243,6 +243,7 @@ html {
 @media (min-width: 1920px) {
   .banner {
     background-position: 118% -20px;
+    background-size: auto 85%;
   }
 }
 
