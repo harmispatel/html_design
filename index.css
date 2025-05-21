@@ -128,7 +128,7 @@ html {
   overflow: hidden;
   background-position: 110% -10px;
   background-repeat: no-repeat;
-  background-size: auto 90%;
+  background-size: auto 85%;
   height: calc(100vh - 94px);
   display: flex;
   align-items: center;
@@ -255,23 +255,40 @@ html {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   .banner {
-    background-position: 130% -20px;
+    background-position: 100% -3%;
+    background-size: 50%;
+    height: auto;
+    padding: 150px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .banner {
-    background-position: 150% -30px;
+    background: url("assets/banner/mobile-image-final.png");
+    padding: 0 0 450px 0;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+  }
+
+  .banner-left {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media (max-width: 767px) {
   .banner {
-    background-image: url("assets/banner/mobile-image-final.png");
+    background: url("assets/banner/mobile-image-final.png");
     padding: 0 0 370px 0;
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
+    height: auto;
   }
 
   .banner-right,
@@ -1091,8 +1108,9 @@ html {
 }
 
 .testimonial .rating-box-list .testi-name .testi_name_box {
-  width: 76px;
+  max-width: 76px;
   height: 76px;
+  padding: 16px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1781,6 +1799,24 @@ html {
     width: 18px;
   }
 
+  .navbar-section .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  /* .banner {
+    background-image: url(assets/banner/mobile-image-final.png);
+    padding: 0 0 370px 0;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  } */
+
+  .why-bright-baby .image-3 {
+    bottom: 56%;
+    left: 4%;
+  }
+
   .bright-app {
     display: none;
   }
@@ -1788,6 +1824,10 @@ html {
   .garbh-section {
     padding: 60px 0;
     margin: 0;
+  }
+
+  .garbh-section .garbh-box .card-content {
+    padding: 15px;
   }
 
   .video-gallery-section {
@@ -1814,11 +1854,21 @@ html {
   }
 
   .our-course {
-    padding: 60px 5px;
+    padding: 60px 0;
   }
 
   .our-course .our-box-size {
     padding-bottom: 20px;
+  }
+
+  .our-course .course-desc .course-list-box {
+    padding: 15px;
+  }
+
+  .testimonial .rating-box-list .testi-name .testi_name_box {
+    max-width: 50px;
+    height: 50px;
+    padding: 30px;
   }
 
   .testimonial {
@@ -1843,6 +1893,32 @@ html {
     border: none !important;
     outline: none !important;
     padding: 0;
+  }
+
+  .blog-section .date-badge {
+    left: 20px;
+  }
+
+  .blog-section .blog-content {
+    padding: 20px;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+
+  .logo-desc,
+  .quick-links,
+  .contact-info {
+    width: 100%;
+  }
+
+  .testimonial .testimonial_arrow,
+  .garbh-section .testimonial_arrow,
+  .video-gallery-section .testimonial_arrow {
+    display: none;
   }
 }
 
@@ -2237,7 +2313,9 @@ html {
   }
 
   .footer-container {
-    display: grid;
+    display: grid !important;
+    gap: 0;
+    grid-template-columns: auto;
   }
 
   .blog-section {
