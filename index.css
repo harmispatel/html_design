@@ -405,18 +405,6 @@ html {
   margin-bottom: 20px;
 }
 
-.why-bright-baby .image-4 {
-  position: absolute;
-  top: 12%;
-  right: 5%;
-}
-
-.why-bright-baby .image-5 {
-  position: absolute;
-  bottom: 27%;
-  right: 7%;
-}
-
 /* <!-- BrightBaby Statistic Section --> */
 .statistics-section {
   background-color: #fcf2ff;
@@ -1994,11 +1982,6 @@ html {
   .why-bright-baby .content .content-info span {
     font-size: 15px;
     line-height: 20px;
-  }
-
-  .why-bright-baby .image-4,
-  .why-bright-baby .image-5 {
-    display: none;
   }
 
   .statistics-section {
