@@ -2001,40 +2001,6 @@ html {
     display: none;
   }
 
-  .why-bright-baby .bright-bird {
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 22px;
-    background: url("/assets/whyBrightBaby/bird.svg") right bottom no-repeat;
-    background-size: cover;
-    top: 330px;
-    right: 63px;
-  }
-
-  .why-bright-baby .left-image::before {
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 22px;
-    background: url("/assets/whyBrightBaby/Isolation_Mode.svg") left bottom
-      no-repeat;
-    background-size: cover;
-    top: 4%;
-    left: 80px;
-  }
-
-  .why-bright-baby .left-image::after {
-    content: "";
-    position: absolute;
-    height: 55px;
-    width: 77px;
-    background: url("/assets/whyBrightBaby/sky.svg") left bottom no-repeat;
-    background-size: cover;
-    top: 22%;
-    left: 5%;
-  }
-
   .statistics-section {
     padding: 60px 8px;
   }
