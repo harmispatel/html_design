@@ -405,24 +405,6 @@ html {
   margin-bottom: 20px;
 }
 
-.why-bright-baby .image-1 {
-  position: absolute;
-  top: 8%;
-  left: 12%;
-}
-
-.why-bright-baby .image-2 {
-  position: absolute;
-  bottom: 15%;
-  left: 33%;
-}
-
-.why-bright-baby .image-3 {
-  position: absolute;
-  bottom: 30%;
-  left: 5%;
-}
-
 .why-bright-baby .image-4 {
   position: absolute;
   top: 12%;
@@ -1812,11 +1794,6 @@ html {
     background-size: contain;
   } */
 
-  .why-bright-baby .image-3 {
-    bottom: 56%;
-    left: 4%;
-  }
-
   .bright-app {
     display: none;
   }
@@ -2019,9 +1996,6 @@ html {
     line-height: 20px;
   }
 
-  .why-bright-baby .image-1,
-  .why-bright-baby .image-2,
-  .why-bright-baby .image-3,
   .why-bright-baby .image-4,
   .why-bright-baby .image-5 {
     display: none;
